@@ -17,8 +17,8 @@ echo $LIMA_IP_ADDR
 sudo route -nv add -net 172.18 ${LIMA_IP_ADDR}
 
 # check route
-route get 172.18.1.1
-#traceroute 172.18.1.1
+route get 172.18.0.1
+#traceroute 172.18.0.1
 
 # delete route
 #sudo route -nv delete -net 172.18 ${LIMA_IP_ADDR}
